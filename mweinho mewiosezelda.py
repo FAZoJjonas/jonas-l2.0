@@ -182,6 +182,7 @@ def jogar_cobrinha():
             
             pygame.time.Clock().tick(velocidade)
     
+    
     jogo_cobrinha()
 
 
