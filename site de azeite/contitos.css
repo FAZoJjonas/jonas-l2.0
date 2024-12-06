@@ -1,0 +1,54 @@
+/* Definindo o estilo global da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffeb3b, #4caf50); /* Gradiente de amarelo para verde */
+    color: #333; /* Cor do texto */
+    height: 100vh; /* A altura da página ocupa toda a tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para o contêiner do contato */
+#contato {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+#contato h2 {
+    color: #4caf50; /* Cor verde */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os blocos de contato */
+.contact-block {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o texto do bloco de contato */
+#block1, #block2 {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555; /* Cor do texto */
+}
+
+/* Estilo para links de e-mail e telefone */
+a {
+    color: #4caf50; /* Verde para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffeb3b; /* Amarelo ao passar o mouse */
+    text-decoration: underline;
+}

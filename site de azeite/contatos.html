@@ -1,9 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        /* Definindo o estilo global da página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffeb3b, #4caf50); /* Gradiente de amarelo para verde */
+            color: #333; /* Cor do texto */
+            height: 100vh; /* A altura da página ocupa toda a tela */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Estilo para o contêiner do contato */
+        #contato {
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Estilo para o título */
+        #contato h2 {
+            color: #4caf50; /* Cor verde */
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para os blocos de contato */
+        .contact-block {
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para o texto do bloco de contato */
+        #block1, #block2 {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555; /* Cor do texto */
+        }
+
+        /* Estilo para links de e-mail e telefone */
+        a {
+            color: #4caf50; /* Verde para links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #ff0000; /* Amarelo ao passar o mouse */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
 <section id="contato">
     <h2>Contato</h2>
     <div class="contact-block">
-        <p id="block1">Estamos prontos para atender você! aqui está o nosso gmail: jonaspontessilva@gmail.com</p>
+        <address>
+            <p>Estamos prontos para atender você! Envie-nos um e-mail para <a href="mailto:jonaspontessilva@gmail.com">jonaspontessilva@gmail.com</a></p>
+        </address>
     </div>
     <div class="contact-block">
-        <p id="block2">Entre em contato para saber mais sobre nossos produtos! no whatsapp: (61) 98246-1465</p>
+        <p>Entre em contato para saber mais sobre nossos produtos! Fale conosco no <a href="tel:+5561982461465">(61) 98246-1465</a></p>
     </div>
 </section>
+
+</body>
+</html>
